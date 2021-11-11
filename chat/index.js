@@ -29,7 +29,7 @@ function update(clear) {
       h(
         "main",
         {
-          class: "flex-grow-1"
+          class: "flex-grow-1 overflow-hidden"
         },
         messages.map(function(message) {
           return h(
